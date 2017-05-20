@@ -1,2 +1,3 @@
 # buffpython
-My pythons
+'''My pythons
+A collection of python exercises and programs'''
