@@ -1,0 +1,21 @@
+#fizzbuzz game calculator
+#input for the range that you want to 
+fizzbuzzupto = int(input("how high do you want to count? "))
+#function
+def fizzbuz():    
+#selection using nested ifs elses and elifs. Note the different indents to calculate fizz, buzz or fizzbuzz. 
+#Uses modulus to id divisible by 3 or 5    
+if x % 3 == 0:        
+    if x % 5 != 0:            
+        return ("Fizz")        
+    else:            
+        return ("FizzBuzz")    
+    
+elif x % 5 == 0:        
+    return("Buzz")   
+else:        
+    return (x)                    
+#for loop to iterate the production of numbers, fizzes, buzzes or fizzbuzzes
+for x in range (0,upto):
+#Function call. Note the end = ", ".... this keeps it all on 1 line and adds a space and comma    
+    print((fizzbuz ()),end = ", ")
